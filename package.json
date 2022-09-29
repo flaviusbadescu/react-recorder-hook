@@ -1,6 +1,6 @@
 {
   "name": "react-recorder-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "screen and webcam recording hook",
   "main": "dist/index.js",
   "files": [

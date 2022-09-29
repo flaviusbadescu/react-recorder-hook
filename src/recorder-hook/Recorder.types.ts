@@ -13,7 +13,11 @@ export type TRecorder = {
   status: Status;
   url: string | null;
   videoRef: RefObject<HTMLVideoElement> | null;
-  startRecording: (audioId?: string, videoId?: string) => void;
+  startRecording: (
+    audioId?: string,
+    videoId?: string,
+    webcamRecording?: boolean
+  ) => void;
   stopRecording: () => void;
   pauseRecording: () => void;
   resumeRecording: () => void;
