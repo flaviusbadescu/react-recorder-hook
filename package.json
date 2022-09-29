@@ -2,8 +2,7 @@
   "name": "react-recorder-hook",
   "version": "1.0.0",
   "description": "screen and webcam recording hook",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
@@ -28,7 +27,6 @@
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.77.0",
-    "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-serve": "^2.0.0",
