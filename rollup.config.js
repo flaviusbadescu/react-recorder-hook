@@ -8,6 +8,7 @@ export default [
     output: [
       {
         file: packageJson.main,
+        sourcemap: true,
       },
     ],
     plugins: [typescript({ tsconfig: "./tsconfig.json" })],
